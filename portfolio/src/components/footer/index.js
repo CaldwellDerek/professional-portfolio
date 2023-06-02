@@ -12,8 +12,8 @@ const Footer = () => {
         <div style={footerStyle} className="w-100 fixed-bottom">
             <Navbar className="h-100 w-100" bg="dark" variant="dark" >
                 <Nav className="me-auto w-100 d-flex justify-content-center">
-                    <Nav.Link href="#github">GitHub</Nav.Link>
-                    <Nav.Link href="#linkedin">LinkedIn</Nav.Link>
+                    <Nav.Link href="https://github.com/CaldwellDerek" target="_blank">GitHub</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/djcaldwell95/" target="_blank">LinkedIn</Nav.Link>
                 </Nav>
             </Navbar>
         </div>
