@@ -15,9 +15,6 @@ const Navigation = () => {
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
-                    <Nav.Link href="#resume">Resume</Nav.Link>
-                    <Nav.Link href="#github">GitHub</Nav.Link>
-                    <Nav.Link href="#linkedin">LinkedIn</Nav.Link>
                 </Nav>
             </Navbar>
         </div>
