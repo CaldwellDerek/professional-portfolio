@@ -1,14 +1,46 @@
 img {
     height: 200px;
     width: 200px;
+    border-radius: 10px;
 }
+
+p {
+    max-width: 500px;
+}
+
+.img-container{
+    position: inline-block;
+    position: relative;
+}
+
+.img-container::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: -10%;
+    top: -10%;
+    border: 4px solid black;
+    border-radius: 10px;
+    content: "";
+}
+
+/* .wrapper::after {
+    content: "";
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    right: 10px;
+} */
 
 #about {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1000px;
     height: 50%;
     margin: auto;
+    padding: 0 30px 0 30px;
     align-items: center;
 }
 
@@ -16,4 +48,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 30px;
 }
+
+

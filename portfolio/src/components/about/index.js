@@ -7,7 +7,11 @@ import profilePicture from "../../assets/profile-picture.jpg"
 const About = () => {
     return (
         <div id="about">
-            <img src={profilePicture} alt="self portrait" />
+            <div className="img-container">
+                <div className="wrapper">
+                    <img src={profilePicture} alt="self portrait" />
+                </div>
+            </div>
             <div id="intro">
                 <h3>Hello, my name is</h3>
                 <h1>Derek Caldwell</h1>
