@@ -1,15 +1,11 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
-const navStyle = {
-    height: "100%"
-}
-
+import './index.css';
 
 const Navigation = () => {
     return (
-        <div style={navStyle}>
+        <div className="nav-div">
             <Navbar className="h-100" bg="dark" variant="dark" >
                 <Navbar.Brand className="ms-2 w-100 d-flex justify-content-between" href="#about">Derek Caldwell</Navbar.Brand>
                 <Nav className="me-auto">

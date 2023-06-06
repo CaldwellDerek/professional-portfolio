@@ -2,15 +2,12 @@ import React from "react";
 import './index.css'
 import profilePicture from "../../assets/profile-picture.jpg"
 
-const profileStyle = {
-    height: "200px",
-    width: "200px"
-}
+
 
 const About = () => {
     return (
         <div id="about">
-            <img style={profileStyle} src={profilePicture} alt="self portrait" />
+            <img src={profilePicture} alt="self portrait" />
             <div id="intro">
                 <h3>Hello, my name is</h3>
                 <h1>Derek Caldwell</h1>
