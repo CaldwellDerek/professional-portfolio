@@ -8,9 +8,7 @@ const About = () => {
     return (
         <div id="about">
             <div className="img-container">
-                <div className="wrapper">
                     <img src={profilePicture} alt="self portrait" />
-                </div>
             </div>
             <div id="intro">
                 <h3>Hello, my name is</h3>
