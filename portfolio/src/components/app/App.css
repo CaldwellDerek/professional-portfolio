@@ -1,5 +1,21 @@
+header{
+  height: 10%;
+}
+
+footer {
+  height: 10%;
+  bottom: 0;
+}
+
+.main {
+  height: 80%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {

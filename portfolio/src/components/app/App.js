@@ -15,7 +15,6 @@ function App() {
       </header>
       <div className='main'>
         <BrowserRouter>
-          <br/>
           <Routes>
             <Route path="/" element={<About/>}/>
             <Route path="/about" element={<About/>}/>

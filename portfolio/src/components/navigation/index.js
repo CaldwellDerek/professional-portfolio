@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const navStyle = {
-    height: "75px"
+    height: "100%"
 }
 
 
