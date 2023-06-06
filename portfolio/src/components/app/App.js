@@ -1,8 +1,8 @@
-import Navigation from './navigation';
-import Footer from './footer';
-import About from './about';
-import Contact from './contact';
-import Projects from './projects';
+import Navigation from '../navigation';
+import Footer from '../footer';
+import About from '../about';
+import Contact from '../contact';
+import Projects from '../projects';
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
