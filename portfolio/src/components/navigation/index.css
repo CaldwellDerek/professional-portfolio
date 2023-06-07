@@ -49,6 +49,8 @@
     border-color: #212529 !important; 
 }
 
-.dropdown-menu {
+.dropdown-button::after {
+    display: none !important;
 }
+
 }
