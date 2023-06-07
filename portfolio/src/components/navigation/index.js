@@ -9,14 +9,6 @@ const showDropmenu = () => {
     document.querySelector(".dropmenu").style.width = "60%";
 }
 
-document.addEventListener('click', (event) => {
-    console.log(event.target);
-    if (event.target !== document.querySelector(".dropmenu") && event.target !== document.querySelector(".dropmenu-icon")){
-        document.querySelector(".dropmenu").style.width = "0%";
-        document.querySelector(".closemenu").style.visibility = "hidden";
-    }
-})
-
 const Navigation = () => {
     return (
         <div className="nav-div">

@@ -1,0 +1,46 @@
+.closemenu {
+    visibility: hidden;
+    position: absolute;
+    border : none;
+    background: black;
+    right: 20px;
+    top: 20px;
+    transition-delay: .1s;
+    transition-property: visibility;
+}
+
+.closemenu img {
+    height: 30px;
+    width: 30px;
+}
+
+.dropmenu {
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    transition: width 0.5s;
+}
+
+.dropmenu-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.dropmenu-button {
+    background-color: #212529;
+    border: none;
+}
+
+@media screen and (max-width: 1125px) {
+    .dropdown {
+       display: block;
+   }
+      
+}
+   
