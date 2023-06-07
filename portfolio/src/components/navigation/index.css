@@ -27,13 +27,14 @@
 }
 
 .closemenu {
-    display: none;
+    visibility: hidden;
     position: absolute;
     border : none;
     background: black;
-    right: 5px;
-    top: 5px;
-    transition: display 0.5s;
+    right: 20px;
+    top: 20px;
+    transition-delay: .1s;
+    transition-property: visibility;
 }
 
 .closemenu img {

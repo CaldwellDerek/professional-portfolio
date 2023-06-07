@@ -5,7 +5,7 @@ import menu from '../../assets/menu.png';
 import './index.css';
 
 const showDropmenu = () => {
-    document.querySelector(".closemenu").style.display = "block";
+    document.querySelector(".closemenu").style.visibility = "visible"
     document.querySelector(".dropmenu").style.width = "60%";
 }
 
@@ -13,7 +13,7 @@ document.addEventListener('click', (event) => {
     console.log(event.target);
     if (event.target !== document.querySelector(".dropmenu") && event.target !== document.querySelector(".dropmenu-icon")){
         document.querySelector(".dropmenu").style.width = "0%";
-        document.querySelector(".closemenu").style.display = "none";
+        document.querySelector(".closemenu").style.visibility = "hidden";
     }
 })
 
