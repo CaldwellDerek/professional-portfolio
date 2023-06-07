@@ -1,5 +1,6 @@
 .nav-div {
-    height: 100%;
+    height: 5%;
+    margin: auto;
 }
 
 .nav-bar {
@@ -25,14 +26,50 @@
     color: #FFF !important;
 }
 
-.dropdown {
+.closemenu {
     display: none;
+    position: absolute;
+    border : none;
+    background: black;
+    right: 5px;
+    top: 5px;
+    transition: display 0.5s;
 }
 
-.menu-icon {
-    height: 25px;
+.closemenu img {
+    height: 30px;
     width: 30px;
 }
+
+.dropdown {
+    display: none;
+    margin-right: 60px;
+}
+
+.dropmenu {
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    transition: width 0.5s;
+}
+
+.dropmenu-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.dropmenu-button {
+    background-color: #212529;
+    border: none;
+}
+
+
 
 @media screen and (max-width: 1125px) {
  .nav-links {
@@ -41,16 +78,7 @@
 
  .dropdown {
     display: block;
-    margin-right: 60px;
 }
 
-.dropdown-button {
-    background-color: #212529 !important;
-    border-color: #212529 !important; 
-}
-
-.dropdown-button::after {
-    display: none !important;
-}
 
 }
