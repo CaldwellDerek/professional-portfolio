@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import close from '../../assets/close-menu.png';
+import resume from '../../assets/resume.pdf'
 import './index.css';
 
 document.addEventListener('click', (event) => {
@@ -23,7 +24,7 @@ const MobileNavigation = () => {
                     <Nav.Link className="mobile-nav-link" href="about">About</Nav.Link>
                     <Nav.Link className="mobile-nav-link" href="projects">Projects</Nav.Link>
                     <Nav.Link className="mobile-nav-link" href="contact">Contact</Nav.Link>
-                    <Nav.Link className="mobile-nav-link" href="contact">Resume</Nav.Link>
+                    <Nav.Link className="mobile-nav-link" href={resume} target="_blank">Resume</Nav.Link>
                 </Nav>
             </Navbar>
       </div>
