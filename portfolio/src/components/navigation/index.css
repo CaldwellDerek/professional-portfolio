@@ -24,3 +24,31 @@
 .nav-link:hover {
     color: #FFF !important;
 }
+
+.dropdown {
+    display: none;
+}
+
+.menu-icon {
+    height: 25px;
+    width: 30px;
+}
+
+@media screen and (max-width: 1125px) {
+ .nav-links {
+    display: none !important;
+ }
+
+ .dropdown {
+    display: block;
+    margin-right: 60px;
+}
+
+.dropdown-button {
+    background-color: #212529 !important;
+    border-color: #212529 !important; 
+}
+
+.dropdown-menu {
+}
+}

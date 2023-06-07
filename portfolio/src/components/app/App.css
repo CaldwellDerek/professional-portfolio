@@ -1,10 +1,12 @@
 header{
   height: 5%;
+  margin: auto;
 }
 
 footer {
   height: 5%;
   bottom: 0;
+  margin: auto;
 }
 
 .main {
