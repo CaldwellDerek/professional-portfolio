@@ -70,7 +70,7 @@ const Projects = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="project-image-container">
+                <div className="project-image-container-mid">
                     <img className="project-image" src={cwtimage} alt="placeholder" />
                 </div>
             </div>
