@@ -16,7 +16,7 @@ const Projects = () => {
                 </div>
                 <div className="project-info">
                     <h1>Board Game Party</h1>
-                    <p>An application designed to help players determine the best option for their board game party. This project allows users to quickly research, save, and purchase board games. </p>
+                    <p>This front end project is designed to help players determine the next best option for their board game party. This app allows users to quickly research, save, and purchase board games. </p>
                     <ul className="technologies-list">
                         <li className="technology">HTML</li>
                         <li className="technology">CSS</li>
@@ -44,14 +44,16 @@ const Projects = () => {
             <div className="project-2">
 
                 <div className="project-info">
-                    <h1>Project Name</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                    <h1>COR3: Workout Tracker</h1>
+                    <p>COR3 is a full stack application that allows users to record their progress in the gym. Users can sign up, calculate their one-rep maximums for Squat, Bench and Deadlifts and store their current maximums for long term comparison. </p>
                     <ul className="technologies-list">
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
+                        <li className="technology">HTML</li>
+                        <li className="technology">CSS</li>
+                        <li className="technology">JavaScript</li>
+                        <li className="technology">Node.js</li>
+                        <li className="technology">Express.js</li>
+                        <li className="technology">Handlebars.js</li>
+                        <li className="technology">Sequelize</li>
                     </ul>
                     <ul className="external-links-list">
                         <li className="external-link">
