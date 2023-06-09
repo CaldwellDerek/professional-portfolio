@@ -1,22 +1,41 @@
 .projects {
+    margin: 20px auto;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-content: center;
     overflow: scroll;
-    margin: 20px;
 }
+
+.projects h1 {
+    font-size: 48px !important;
+}
+
+.projects p,
+.projects li {
+    font-size: 18px !important;
+}
+
+/* .projects h1,
+.projects p,
+.projects li {
+    width: 100% !important;
+} */
 
 .project-1,
 .project-2,
 .project-3 {
     width: 100%;
     display: flex;
-    margin: 20px auto 20px;
+    justify-content: center;
+    margin: 20px auto 20px auto;
 }
 
 .project-image-container {
     margin-right: 10px;
+    height: 100%;
+    width: 50%;
 }
 
 .project-image {
@@ -26,6 +45,13 @@
 
 .project-info {
     margin-left: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .technologies-list,
@@ -36,5 +62,4 @@
 .technology,
 .external-link {
     display: inline;
-    margin: 0 10px;
 }
