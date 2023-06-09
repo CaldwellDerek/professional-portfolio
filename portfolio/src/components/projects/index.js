@@ -4,6 +4,7 @@ import bgpimage from '../../assets/board-game-party.png';
 import github from '../../assets/github.png';
 import ext from '../../assets/external-link.png';
 import './index.css';
+
 const Projects = () => {
     return (
         <div className="projects">
@@ -45,7 +46,7 @@ const Projects = () => {
 
                 <div className="project-info">
                     <h1>COR3: Workout Tracker</h1>
-                    <p>COR3 is a full stack application that allows users to record their progress in the gym. Users can sign up, calculate their one-rep maximums for Squat, Bench and Deadlifts and store their current maximums for long term comparison. </p>
+                    <p>COR3 is a full stack application that allows users to record their progress in the gym with a focus on Bench, Squat, and Deadlift. Users can sign up, calculate and store their current maximums for long term comparison. </p>
                     <ul className="technologies-list">
                         <li className="technology">HTML</li>
                         <li className="technology">CSS</li>
@@ -80,14 +81,18 @@ const Projects = () => {
                     <img className="project-image" src={placeholder} alt="placeholder" />
                 </div>
                 <div className="project-info">
-                    <h1>Project Name</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                    <h1>Jolly Co-op</h1>
+                    <p>A full stack application that lets users form gaming groups to decide on the next video game to play together. Groups can research, save, and vote on the next video game they'd like to play.</p>
                     <ul className="technologies-list">
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
-                        <li className="technology">Language used</li>
+                        <li className="technology">HTML</li>
+                        <li className="technology">CSS</li>
+                        <li className="technology">JavaScript</li>
+                        <li className="technology">Node.js</li>
+                        <li className="technology">Express.js</li>
+                        <li className="technology">Sequelize</li>
+                        <li className="technology">React</li>
+                        <li className="technology">Bootstrap</li>
+                        <li className="technology">rawg.io</li>
                     </ul>
                     <ul className="external-links-list">
                         <li className="external-link">
