@@ -71,7 +71,9 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className="project-image-container-mid">
-                    <img className="project-image" src={cwtimage} alt="placeholder" />
+                    <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
+                        <img className="project-image" src={cwtimage} alt="placeholder" />
+                    </a>
                 </div>
             </div>
 
@@ -79,7 +81,9 @@ const Projects = () => {
 
             <div className="project-3">
                 <div className="project-image-container">
-                    <img className="project-image" src={jcimage} alt="placeholder" />
+                    <a href="https://jollycoop.netlify.app/" rel="noreferrer" target="_blank">
+                        <img className="project-image" src={jcimage} alt="placeholder" />
+                    </a>
                 </div>
                 <div className="project-info">
                     <h1>Jolly Co-op</h1>
