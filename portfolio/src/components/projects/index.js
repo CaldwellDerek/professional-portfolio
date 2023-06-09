@@ -1,6 +1,7 @@
 import React from "react";
-import placeholder from '../../assets/placeholder.jpg';
-import bgpimage from '../../assets/board-game-party.png';
+import bgpimage from '../../assets/board-game-party.jpg';
+import cwtimage from '../../assets/core.jpg';
+import jcimage from '../../assets/jollycoop.jpg';
 import github from '../../assets/github.png';
 import ext from '../../assets/external-link.png';
 import './index.css';
@@ -70,7 +71,7 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className="project-image-container">
-                    <img className="project-image" src={placeholder} alt="placeholder" />
+                    <img className="project-image" src={cwtimage} alt="placeholder" />
                 </div>
             </div>
 
@@ -78,7 +79,7 @@ const Projects = () => {
 
             <div className="project-3">
                 <div className="project-image-container">
-                    <img className="project-image" src={placeholder} alt="placeholder" />
+                    <img className="project-image" src={jcimage} alt="placeholder" />
                 </div>
                 <div className="project-info">
                     <h1>Jolly Co-op</h1>
