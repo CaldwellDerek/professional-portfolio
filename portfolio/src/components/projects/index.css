@@ -1,3 +1,10 @@
+.divider {
+    width: 80%;
+    height: 1px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
 .projects {
     margin: 20px auto;
     height: 100%;
@@ -17,23 +24,16 @@
     font-size: 18px !important;
 }
 
-/* .projects h1,
-.projects p,
-.projects li {
-    width: 100% !important;
-} */
-
 .project-1,
 .project-2,
 .project-3 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px auto 20px auto;
+    margin: 80px auto;
 }
 
 .project-image-container {
-    margin-right: 10px;
     height: 100%;
     width: 50%;
 }
@@ -44,7 +44,6 @@
 }
 
 .project-info {
-    margin-left: 10px;
     height: 100%;
     width: 50%;
     display: flex; 
