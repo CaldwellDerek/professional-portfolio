@@ -1,0 +1,34 @@
+.projects {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-1 {
+    width: 100%;
+    display: flex;
+}
+
+.project-image-container {
+    margin-right: 10px;
+}
+
+.project-image {
+    height: 400px;
+    width: 600px;
+}
+
+.project-info {
+    margin-left: 10px;
+}
+
+.technologies-list,
+.external-links-list {
+    list-style-type: none;
+}
+
+.technology,
+.external-link {
+    display: inline;
+    margin: 0 10px;
+}
