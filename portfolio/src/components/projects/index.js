@@ -32,7 +32,7 @@ const Projects = () => {
                         <li className="external-link">
                             <a href="https://github.com/Bram-G/Board-Game-Party" target="_blank" rel="noreferrer">
                                 <img src={github} alt="github logo" />
-                            </a>
+                            </a> 
                         </li>
                         <li className="external-link">
                         <a href="https://bram-g.github.io/Board-Game-Party/" target="_blank" rel="noreferrer">
