@@ -1,5 +1,3 @@
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import close from '../../assets/close-menu.png';
 import resume from '../../assets/resume.pdf'
 import './index.css';
@@ -18,15 +16,14 @@ const MobileNavigation = () => {
         <button className="closemenu"type="button">
           <img src={close} alt="close menu" />
         </button>
-
-        <Navbar className="mobile-nav-bar" bg="dark" variant="dark" >
-                <Nav className="mobile-nav">
-                    <Nav.Link className="mobile-nav-link" href="about">About</Nav.Link>
-                    <Nav.Link className="mobile-nav-link" href="projects">Projects</Nav.Link>
-                    <Nav.Link className="mobile-nav-link" href="contact">Contact</Nav.Link>
-                    <Nav.Link className="mobile-nav-link" href={resume} target="_blank">Resume</Nav.Link>
-                </Nav>
-            </Navbar>
+        <div className="mobile-nav-bar">
+                <ul className="mobile-nav">
+                    <li><a className="mobile-nav-link" href="about">About</a></li>
+                    <li><a className="mobile-nav-link" href="projects">Projects</a></li>
+                    <li><a className="mobile-nav-link" href="contact">Contact</a></li>
+                    <li><a className="mobile-nav-link" href={resume} target="_blank" rel="noreferrer">Resume</a></li>
+                </ul>
+            </div>
       </div>
     );
 }
