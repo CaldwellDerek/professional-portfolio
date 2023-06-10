@@ -6,6 +6,7 @@ import './index.css';
 const showDropmenu = () => {
     document.querySelector(".closemenu").style.visibility = "visible"
     document.querySelector(".dropmenu").style.width = "60%";
+    document.querySelector(".mobile-nav").style.display = "flex";
 }
 
 const Navigation = () => {
