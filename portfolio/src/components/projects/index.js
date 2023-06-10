@@ -11,10 +11,12 @@ const Projects = () => {
         <div className="projects">
 
             <div className="project-1">
-                <div className="project-image-container">
-                    <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
-                        <img className="project-image" src={bgpimage} alt="placeholder" />
-                    </a>
+                <div className="project-image-div">
+                    <div className="project-image-container">
+                        <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
+                            <img className="project-image" src={bgpimage} alt="placeholder" />
+                        </a>
+                    </div>
                 </div>
                 <div className="project-info">
                     <h1>Board Game Party</h1>
@@ -70,20 +72,24 @@ const Projects = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="project-image-container-mid">
-                    <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
-                        <img className="project-image" src={cwtimage} alt="placeholder" />
-                    </a>
+                <div className="project-image-div">
+                    <div className="project-image-container-mid">
+                        <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
+                            <img className="project-image" src={cwtimage} alt="placeholder" />
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div className="divider"></div>
 
             <div className="project-3">
-                <div className="project-image-container">
-                    <a href="https://jollycoop.netlify.app/" rel="noreferrer" target="_blank">
-                        <img className="project-image" src={jcimage} alt="placeholder" />
-                    </a>
+                <div className="project-image-div">
+                    <div className="project-image-container">
+                        <a href="https://jollycoop.netlify.app/" rel="noreferrer" target="_blank">
+                            <img className="project-image" src={jcimage} alt="placeholder" />
+                        </a>
+                    </div>
                 </div>
                 <div className="project-info">
                     <h1>Jolly Co-op</h1>
