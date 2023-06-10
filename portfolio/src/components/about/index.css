@@ -8,17 +8,17 @@ img {
 
 p {
     max-width: 700px;
-    font-size: 19px !important;
+    font-size: 16px !important;
 }
 
 h1 {
     color: #FFF !important;
-    font-size: 80px !important;
+    font-size: 48px !important;
 }
 
 .about-button {
     position: relative;
-    font-size: 18px !important;
+    font-size: 16px !important;
     width: 150px;
     height: 75px;
     background-color: #212529;
