@@ -168,6 +168,12 @@
         border-radius: 10px;
     }
 
+    .project-1,
+    .project-2,
+    .project-3 {
+        margin: 0px auto;
+    }
+
     .project-info  {
         z-index: 2;
         background-color: #000;
