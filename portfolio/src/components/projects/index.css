@@ -42,6 +42,14 @@
     margin: 80px auto;
 }
 
+.project-image-div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-image-container,
 .project-image-container-mid {
     background: #FFF;
@@ -57,8 +65,8 @@
 
 .project-image-container,
 .project-image-container-mid {
-    height: 100%;
-    width: 50%;
+    height: 375px;
+    width: 100%;
 }
 
 .project-image {
