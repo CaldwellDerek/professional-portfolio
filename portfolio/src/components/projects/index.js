@@ -47,7 +47,7 @@ const Projects = () => {
 
                 <div className="project-info">
                     <h1>COR3: Workout Tracker</h1>
-                    <p>COR3 is a full stack application that allows users to record their progress in the gym with a focus on Bench, Squat, and Deadlift. Users can sign up, calculate and store their current maximums for long term comparison. </p>
+                    <p>COR3 is a full stack application that allows users to record their progress in the gym with a focus on Bench, Squat, and Deadlift. Users can sign up, calculate, and store their current maximums for long term comparison. </p>
                     <ul className="technologies-list">
                         <li className="technology">HTML</li>
                         <li className="technology">CSS</li>
