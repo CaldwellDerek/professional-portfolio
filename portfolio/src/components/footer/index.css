@@ -1,6 +1,4 @@
 .footer-div {
-    grid-row: 5;
-    grid-column: 1 / span 3;
     width: 100%;
     display: flex;
     justify-content: center;
