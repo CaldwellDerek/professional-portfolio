@@ -8,7 +8,7 @@ import './index.css';
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div id="projects">
 
             <div className="project-1">
                 <div className="project-image-div">
