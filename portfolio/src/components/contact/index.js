@@ -4,7 +4,9 @@ import './index.css';
 const Contact = () => {
     return (
         <div id="contact">
-            <p>contact test</p>
+            <h1>I'd love to hear from you</h1>
+            <p>Reach out to me at my email below and I'll respond as soon as I'm able.</p>
+            <button type="button">djohncaldwell@gmail.com</button>
         </div>
     );
 }
