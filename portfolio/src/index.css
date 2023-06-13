@@ -62,12 +62,14 @@ code {
 	display: grid;
 	grid-template-columns: 5% 90% 5%;
 	grid-template-rows: 6.25em repeat(10, 1fr) 6.25em;
-	/* row-gap: 10em; */
 }
 
 .content {
 	display: flex;
+	row-gap: 20em;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	grid-row: 2 / span 10;
 	grid-column: 2;
 }
