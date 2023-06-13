@@ -1,18 +1,19 @@
 .footer-div {
-    width: 100%;
+    grid-column: 1 / span 3;
+    grid-row: 5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .github-logo {
-    height: 50px;
-    width: 50px;
+    height: 3.125em;
+    width: 3.125em;
 }
 
 .linkedin-logo {
-    height: 40px;
-    width: 40px;
+    height: 2.5em;
+    width: 2.5em;
 }
 
 .github-logo,
@@ -26,21 +27,7 @@
     filter: invert(70%) sepia(6%) saturate(117%) hue-rotate(169deg) brightness(88%) contrast(87%);
 }
 
-.footer-nav {
-    height: 100%;
-    width: 100%;
+.footer-nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    list-style-type: none;
-}
-
-
-.footer-nav-links a{
-    color: #FFF;
-    text-decoration: none;
-}
-
-.footer-nav-links a:hover {
-    color: #9a9c9e !important;
 }

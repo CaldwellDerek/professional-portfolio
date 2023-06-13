@@ -4,8 +4,8 @@ import Navigation from './components/navigation';
 // import MobileNavigation from './components/mobile-navigation';
 import About from './components/about';
 import Projects from './components/projects';
-// import Contact from './components/contact';
-// import Footer from './components/footer';
+import Contact from './components/contact';
+import Footer from './components/footer';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,10 +15,8 @@ root.render(
     <div className='content'>
       <About/>
       <Projects/>
+      <Contact/>
     </div>
-    {/* <MobileNavigation/> */}
-    {/*
-    <Contact/>
-    <Footer/> */}
+    <Footer/>
   </React.StrictMode>
 );
