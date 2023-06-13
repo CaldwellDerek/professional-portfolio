@@ -1,5 +1,5 @@
 import React from "react";
-import './index.css'
+// import './index.css'
 import profilePicture from "../../assets/profile-picture.jpg"
 
 const buttonClick = () => {

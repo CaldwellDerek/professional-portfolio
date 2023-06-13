@@ -1,7 +1,7 @@
 import React from "react";
 import menu from '../../assets/menu.png';
 import resume from '../../assets/resume.pdf'
-import './index.css';
+import './style.css';
 
 const showDropmenu = () => {
     document.querySelector(".closemenu").style.visibility = "visible"
@@ -12,7 +12,7 @@ const showDropmenu = () => {
 const Navigation = () => {
     return (
         <div className="nav-div">
-                <div className="nav-brand">Derek Caldwell</div>
+                <p>Derek Caldwell</p>
                 <ul className="nav-links">
                     <li><a className="nav-link" href="#about">About</a></li>
                     <li><a className="nav-link" href="#projects">Projects</a></li>

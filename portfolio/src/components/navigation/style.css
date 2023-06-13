@@ -1,0 +1,48 @@
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25em;
+    font-size: 1.25em;
+    color: #FFF;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #FFF;
+    transition: color 0.4s;
+}
+
+.nav-link:hover {
+    color: #9a9c9e;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown button {
+    background-color: #212529;
+    border: none;
+}
+
+.dropdown img {
+    max-height: 3.5em;
+    max-width: 3.5em;
+}
+
+@media screen and (max-width: 48rem) {
+    
+    .nav-links {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+}

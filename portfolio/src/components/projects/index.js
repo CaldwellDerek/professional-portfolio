@@ -4,7 +4,7 @@ import cwtimage from '../../assets/core.jpg';
 import jcimage from '../../assets/jollycoop.jpg';
 import github from '../../assets/github.png';
 import ext from '../../assets/external-link.png';
-import './index.css';
+// import './index.css';
 
 const Projects = () => {
     return (
