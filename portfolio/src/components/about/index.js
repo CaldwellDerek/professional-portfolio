@@ -1,6 +1,6 @@
 import React from "react";
-// import './index.css'
 import profilePicture from "../../assets/profile-picture.jpg"
+import './style.css';
 
 const buttonClick = () => {
     window.location.href = "/projects";

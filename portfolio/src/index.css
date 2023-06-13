@@ -36,6 +36,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #212529;
   color: #9a9c9e;
+  display: grid;
+  grid-template-columns: 5% repeat(10, 1fr) 5%;
+  grid-template-rows: 4% repeat(20, 1fr) 4%;
 }
 ol, ul {
 	list-style: none;
