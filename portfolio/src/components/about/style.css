@@ -1,4 +1,71 @@
+.portrait {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    position: relative;
+    max-height: 20em;
+    max-width: 20em;
+}
+
 .img-container img {
-    height: 20em;
-    width: 20em;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 0.25em;
+}
+
+.img-wrapper {
+    z-index: -1;
+    left: -7%;
+    top: 7%;
+    position: absolute;
+    border: 0.25em solid #FFF;
+    border-radius: 0.25em;
+    height: 100%;
+    width: 100%;
+}
+
+
+#about {
+    display: flex;
+}
+
+.about-button {
+    position: relative;
+    font-size: 1em;
+    min-width: 9.375em;
+    min-height: 4.7em;
+    background-color: #212529;
+    border-color: #9a9c9e;
+    border-radius: 0.3em;
+    color: #9a9c9e;
+    margin-top: 1.25em;
+    transition: color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.4s;
+}
+
+.about-button:hover{
+    color: #FFF;
+    border-color: #FFF;
+    transform: translate(0.5em, -0.5em);
+    box-shadow: -0.5em 0.5em #FFF;
+}
+
+
+#intro {
+    max-width: 50em;
+    line-height: 1.4;
+    padding-left: 1em;
+}
+
+#intro h1 {
+    font-size: 2.5em;
+    color: #FFF;
+    margin-bottom: 0.25em;
+}
+
+#intro p {
+    margin-bottom: 0.6em;
 }

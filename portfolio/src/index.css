@@ -36,9 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #212529;
   color: #9a9c9e;
-  display: grid;
-  grid-template-columns: 5% repeat(10, 1fr) 5%;
-  grid-template-rows: 4% repeat(20, 1fr) 4%;
 }
 ol, ul {
 	list-style: none;
@@ -61,3 +58,16 @@ code {
     monospace;
 }
 
+#root {
+	display: grid;
+	grid-template-columns: 5% 90% 5%;
+	grid-template-rows: 6.25em repeat(10, 1fr) 6.25em;
+	/* row-gap: 10em; */
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	grid-row: 2 / span 10;
+	grid-column: 2;
+}

@@ -9,9 +9,11 @@ const buttonClick = () => {
 const About = () => {
     return (
         <div id="about">
-            <div className="img-container">
+            <div className="portrait">
+                <div className="img-container">
                     <img src={profilePicture} alt="self portrait" />
-                    <div className="wrapper"></div>
+                    <div className="img-wrapper"></div>
+                </div>
             </div>
             <div id="intro">
                 <p className="intro-hello">Hello, my name is</p>

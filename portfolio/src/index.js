@@ -12,8 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navigation/>
+    <div className='content'>
+      <About/>
+    </div>
     {/* <MobileNavigation/> */}
-    <About/>
     {/* <Projects/>
     <Contact/>
     <Footer/> */}
