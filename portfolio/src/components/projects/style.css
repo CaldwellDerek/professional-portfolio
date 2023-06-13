@@ -127,4 +127,5 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     row-gap: 5em;
+    width: 70%;
 }
