@@ -8,16 +8,15 @@
 
 .project h1 {
     font-size: clamp(1.5em, 2.5em, 2.5em);
-}
-
-.project p,
-.project li {
-    font-size: 1em;
-}
-
-.project h1 {
     color: #B9D6F2;
 }
+
+.project p {
+    background-color: #072254;
+    padding: 1.2em;
+    border-radius: 0.25em;
+}
+
 
 .project-1 {
     grid-row: 1;
@@ -88,7 +87,7 @@
 .project-info-3 {
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 8;
     z-index: 2;
     border-top-right-radius: 0.75em;
@@ -101,7 +100,7 @@
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     z-index: 2;
     border-top-left-radius: 0.75em;
     border-bottom-left-radius: 0.75em;
@@ -114,13 +113,12 @@
 .project-info-3 {
     max-width: 90%;
     color: #FFF;
-    padding: 0.5em;
+    padding: 1em;
     display: flex;
-    row-gap: .5em;
+    row-gap: 1em;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #061A40;
 }
 
 .project-1 .technology,

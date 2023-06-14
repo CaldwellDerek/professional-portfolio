@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-track {
-	background: #061A40;
+	background: #04132f;
 	border-radius: 100vw;
 	margin-block: 0.1em;
 }
@@ -13,14 +13,14 @@
 ::-webkit-scrollbar-thumb {
 	background: #B9D6F2;
 	border-radius: 100vw;
-	border: 0.1em solid #061A40;
+	border: 0.1em solid #04132f;
 }
 
 /* FIREFOX SCROLL*/
 
 @supports (scrollbar-color: red blue) {
 	* {
-		scrollbar-color: #B9D6F2 #061A40;
+		scrollbar-color: #B9D6F2 #04132f;
 		scrollbar-width: thin;
 	}
 }
@@ -63,7 +63,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #061A40;
+  background-color: #04132f;
   color: #FFF;
   overflow-x: hidden;
 }
