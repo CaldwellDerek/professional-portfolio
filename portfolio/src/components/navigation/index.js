@@ -4,11 +4,13 @@ import resume from '../../assets/resume.pdf'
 import './style.css';
 
 const showDropmenu = () => {
-    document.querySelector(".closemenu").style.visibility = "visible"
+    document.querySelector(".closemenu").style.visibility = "visible";
+    document.querySelector(".dropmenu").style.display="block";
     document.querySelector(".dropmenu").style.width = "60%";
     document.querySelector(".mobile-nav").style.display = "flex";
-    document.querySelector("body").style.overflow = "hidden";
+    document.querySelector("body").setAttribute("style", "overflow-y: hidden;");
     document.querySelector(".content").style.filter = "blur(8px)";
+    document.querySelector(".nav-div").style.filter = "blur(8px)";
 }
 
 const Navigation = () => {
