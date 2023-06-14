@@ -8,6 +8,8 @@ document.addEventListener('click', (event) => {
         document.querySelector(".dropmenu").style.width = "0%";
         document.querySelector(".closemenu").style.visibility = "hidden";
         document.querySelector(".mobile-nav").style.display = "none";
+        document.querySelector("body").setAttribute("scroll", "yes");
+        document.querySelector("body").style.overflow = "scroll";
     }
 })
 

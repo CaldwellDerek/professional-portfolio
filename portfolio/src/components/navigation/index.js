@@ -7,6 +7,8 @@ const showDropmenu = () => {
     document.querySelector(".closemenu").style.visibility = "visible"
     document.querySelector(".dropmenu").style.width = "60%";
     document.querySelector(".mobile-nav").style.display = "flex";
+    document.querySelector("body").setAttribute("scroll", "no");
+    document.querySelector("body").style.overflow = "hidden";
 }
 
 const Navigation = () => {
