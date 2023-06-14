@@ -29,12 +29,12 @@ const Projects = () => {
                     <ul className="external-links-list">
                         <li className="external-link">
                             <a href="https://github.com/Bram-G/Board-Game-Party" target="_blank" rel="noreferrer">
-                                <img src={github} alt="github logo" />
+                                <img className="github-img" src={github} alt="github logo" />
                             </a> 
                         </li>
                         <li className="external-link">
                         <a href="https://bram-g.github.io/Board-Game-Party/" target="_blank" rel="noreferrer">
-                                <img src={ext} alt="external link" />
+                                <img className="external-img" src={ext} alt="external link" />
                             </a>
                         </li>
                     </ul>
@@ -64,12 +64,12 @@ const Projects = () => {
                     <ul className="external-links-list">
                         <li className="external-link">
                             <a href="https://github.com/Raflores10/workout-tracker" target="_blank" rel="noreferrer">
-                                <img src={github} alt="github logo" />
+                                <img className="github-img" src={github} alt="github logo" />
                             </a>
                         </li>
                         <li className="external-link">
                         <a href="https://bram-g.github.io/Board-Game-Party/" target="_blank" rel="noreferrer">
-                                <img src={ext} alt="external link" />
+                                <img className="external-img" src={ext} alt="external link" />
                             </a>
                         </li>
                     </ul>
@@ -101,12 +101,12 @@ const Projects = () => {
                     <ul className="external-links-list">
                         <li className="external-link">
                             <a href="https://github.com/CaldwellDerek/jolly-co-op-backend" target="_blank" rel="noreferrer">
-                                <img src={github} alt="github logo" />
+                                <img className="github-img" src={github} alt="github logo" />
                             </a>
                         </li>
                         <li className="external-link">
                         <a href="https://jollycoop.netlify.app/" target="_blank" rel="noreferrer">
-                                <img src={ext} alt="external link" />
+                                <img className="external-img" src={ext} alt="external link" />
                             </a>
                         </li>
                     </ul>

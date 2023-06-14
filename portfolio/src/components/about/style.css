@@ -19,8 +19,8 @@
 
 .img-wrapper {
     z-index: -1;
-    left: -7%;
-    top: 7%;
+    left: -5%;
+    top: 5%;
     position: absolute;
     border: 0.25em solid #B9D6F2;
     border-radius: 0.25em;
@@ -67,4 +67,14 @@
 
 #intro p {
     margin-bottom: 0.6em;
+}
+
+@media screen and (max-width: 81.25em) {
+    .portrait{
+        margin-bottom: 5em;
+    }
+
+    #about {
+        flex-direction: column;
+    }
 }
