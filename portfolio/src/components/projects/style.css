@@ -14,16 +14,32 @@
     font-size: 1em;
 }
 
+.project h1 {
+    color: #B9D6F2;
+}
+
 .project-1 {
     grid-row: 1;
 }
 
 .project-2 {
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .project-3 {
-    grid-row: 3;
+    grid-row: 5;
+}
+
+.divider-1 {
+    grid-row: 2;
+}
+
+.divider-2 {
+    grid-row: 4
+}
+
+.divider {
+    border: .1em solid white;
 }
 
 .project-image-container {
@@ -44,7 +60,7 @@
 
 .overlay {
     display: flex;
-    background-color: #FFF;
+    background-color: #003559;
     z-index: 2;
     opacity: 0.3;
     transition: opacity 0.6s;
@@ -91,14 +107,15 @@
 .project-info,
 .project-info-2,
 .project-info-3 {
-    min-height: 100%;
+    color: #FFF;
     padding: 0.5em;
     display: flex;
+    row-gap: .5em;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #000;
+    background-color: #061A40;
 }
 
 .technology {
@@ -120,12 +137,12 @@
 }
 
 .external-link img:hover {
-    filter: invert(70%) sepia(6%) saturate(117%) hue-rotate(169deg) brightness(88%) contrast(87%);
+    filter: invert(84%) sepia(23%) saturate(589%) hue-rotate(181deg) brightness(99%) contrast(91%);
 }
 
 #projects {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr .1em 1fr .1em 1fr;
     row-gap: 5em;
     width: 70%;
 }

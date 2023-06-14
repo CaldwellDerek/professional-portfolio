@@ -22,7 +22,7 @@
     left: -7%;
     top: 7%;
     position: absolute;
-    border: 0.25em solid #FFF;
+    border: 0.25em solid #B9D6F2;
     border-radius: 0.25em;
     height: 100%;
     width: 100%;
@@ -33,19 +33,19 @@
     font-size: 1em;
     min-width: 9.375em;
     min-height: 4.7em;
-    background-color: #212529;
-    border-color: #9a9c9e;
+    background-color: #061A40;
+    border-color: #B9D6F2;
     border-radius: 0.3em;
-    color: #9a9c9e;
+    color: #F7F0F5;
     margin-top: 1.25em;
-    transition: color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.4s;
+    transition: border-color 0.4s, box-shadow 0.4s, transform 0.4s;
 }
 
 .about-button:hover{
-    color: #FFF;
-    border-color: #FFF;
+    border-color: #B9D6F2;
     transform: translate(0.5em, -0.5em);
-    box-shadow: -0.5em 0.5em #FFF;
+    box-shadow: -0.5em 0.5em #B9D6F2;
+    cursor: pointer;
 }
 
 #about {
@@ -61,7 +61,7 @@
 
 #intro h1 {
     font-size: 2.5em;
-    color: #FFF;
+    color: #B9D6F2;
     margin-bottom: 0.25em;
 }
 

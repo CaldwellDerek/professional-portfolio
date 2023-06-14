@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="divider"></div>
+            <div className="divider divider-1"></div>
 
             <div className="project project-2">
                 <div className="project-image-container-2 overlay">
@@ -76,7 +76,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="divider"></div>
+            <div className="divider divider-2"></div>
 
             <div className="project project-3">
                 <div className="project-image-container overlay">

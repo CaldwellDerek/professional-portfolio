@@ -7,7 +7,7 @@
 }
 
 #contact h1 {
-    color: #FFF;
+    color: #B9D6F2;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -17,18 +17,17 @@
     font-size: 1em;
     min-width: 12.5em;
     min-height: 4.8em;
-    background-color: #212529;
-    border-color: #9a9c9e;
+    background-color: #061A40;
+    border-color: #B9D6F2;
     border-radius: 0.25em;
-    color: #9a9c9e;
+    color: #F7F0F5;
     margin-top: 1.25em;
-    transition: color 0.4s, border-color 0.4s, box-shadow 0.4s, transform 0.4s;
+    transition: border-color 0.4s, box-shadow 0.4s, transform 0.4s;
     
 }
 
 #contact button:hover{
-    color: #FFF;
-    border-color: #FFF;
     transform: translate(7px, -7px);
-    box-shadow: -7px 7px #FFF;
+    box-shadow: -7px 7px #B9D6F2;
+    cursor: pointer;
 }
