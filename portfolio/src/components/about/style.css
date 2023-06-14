@@ -28,11 +28,6 @@
     width: 100%;
 }
 
-
-#about {
-    display: flex;
-}
-
 .about-button {
     position: relative;
     font-size: 1em;
@@ -53,6 +48,10 @@
     box-shadow: -0.5em 0.5em #FFF;
 }
 
+#about {
+    display: flex;
+    margin-top: 10em;
+}
 
 #intro {
     max-width: 50em;
