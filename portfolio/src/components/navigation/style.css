@@ -34,9 +34,19 @@
     border: none;
 }
 
+.dropdown button:hover {
+    cursor: pointer;
+}
+
 .dropdown img {
     max-height: 3.5em;
     max-width: 3.5em;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(99deg) brightness(106%) contrast(101%);
+    transition: filter 0.5s;
+}
+
+.dropdown img:hover {
+    filter: invert(86%) sepia(4%) saturate(2059%) hue-rotate(179deg) brightness(96%) contrast(97%);
 }
 
 @media screen and (max-width: 48rem) {

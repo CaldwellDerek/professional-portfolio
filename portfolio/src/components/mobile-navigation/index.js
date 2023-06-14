@@ -1,6 +1,6 @@
 import close from '../../assets/close-menu.png';
 import resume from '../../assets/resume.pdf'
-import './index.css';
+import './style.css';
 
 document.addEventListener('click', (event) => {
     console.log(event.target);
@@ -19,10 +19,10 @@ const MobileNavigation = () => {
         </button>
         <div className="mobile-nav-bar">
                 <ul className="mobile-nav">
-                    <li><a className="mobile-nav-link" href="about">About</a></li>
-                    <li><a className="mobile-nav-link" href="projects">Projects</a></li>
-                    <li><a className="mobile-nav-link" href="contact">Contact</a></li>
-                    <li><a className="mobile-nav-link" href={resume} target="_blank" rel="noreferrer">Resume</a></li>
+                    <li className='mobile-nav-link'><a href="#about">About</a></li>
+                    <li className="mobile-nav-link"><a href="#projects">Projects</a></li>
+                    <li className="mobile-nav-link"><a href="#contact">Contact</a></li>
+                    <li className="mobile-nav-link"><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
                 </ul>
             </div>
       </div>

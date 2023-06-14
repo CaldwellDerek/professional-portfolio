@@ -1,0 +1,65 @@
+.closemenu {
+    visibility: hidden;
+    position: absolute;
+    border : none;
+    background: #09275E;
+    right: 1.25em;
+    top: 1.25em;
+    transition-delay: .1s;
+    transition-property: visibility;
+}
+
+.closemenu:hover{
+    cursor: pointer;
+    
+}
+
+.closemenu img {
+    max-height: 2em;
+    max-width: 2em;
+}
+
+.dropmenu {
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #09275E;
+    color: white;
+    transition: width 0.5s;
+}
+
+.mobile-nav-bar {
+    height: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile-nav {
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-nav-link {
+    padding: 1.5em;
+}
+
+.mobile-nav-link a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.5s;
+}
+
+.mobile-nav-link a:hover {
+    color: #B9D6F2;
+}
+
+   
