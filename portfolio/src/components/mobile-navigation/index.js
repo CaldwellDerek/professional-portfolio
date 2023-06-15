@@ -7,7 +7,7 @@ document.addEventListener('click', (event) => {
     if (event.target !== document.querySelector(".dropmenu") && event.target !== document.querySelector(".dropmenu-icon")){
         document.querySelector(".dropmenu").style.width = "0%";
         document.querySelector(".closemenu").style.visibility = "hidden";
-        document.querySelector(".mobile-nav").style.display = "none";
+        document.querySelector(".mobile-nav").style.left = "-35%"
         document.querySelector("body").setAttribute("style", "overflow-y: scroll;");
         document.querySelector(".content").style.filter = "blur(0px)";
         document.querySelector(".nav-div").style.filter = "blur(0px)";

@@ -16,8 +16,8 @@ window.onscroll = function() {
 
 const showDropmenu = () => {
     document.querySelector(".closemenu").style.visibility = "visible";
-    document.querySelector(".dropmenu").style.width = "60%";
-    document.querySelector(".mobile-nav").style.display = "flex";
+    document.querySelector(".dropmenu").style.width = "80%";
+    document.querySelector(".mobile-nav").style.left = "23%"
     document.querySelector("body").setAttribute("style", "overflow-y: hidden;");
     document.querySelector(".content").style.filter = "blur(8px)";
     document.querySelector(".nav-div").style.filter = "blur(8px)";

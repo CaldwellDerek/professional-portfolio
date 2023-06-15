@@ -20,13 +20,14 @@
 }
 
 .dropmenu {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
     z-index: 10;
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 0%;
-    top: 0;
-    bottom: 0;
-    right: 0;
     background-color: #09275E;
     color: white;
     transition: width 0.5s;
@@ -34,17 +35,17 @@
 
 .mobile-nav-bar {
     height: 100%;
-    min-width: 100%;
+    width: 100%;
     display: flex;
-    align-items: center;
-
 }
 
 .mobile-nav {
-    margin: 0 auto;
-    list-style-type: none;
+    position: fixed;
+    left: -35%;
+    top: 40%;
     display: flex;
     flex-direction: column;
+    transition: left .5s;
 }
 
 .mobile-nav-link {
