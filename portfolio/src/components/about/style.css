@@ -51,6 +51,7 @@
 #about {
     display: flex;
     margin-top: 10em;
+    justify-content: center;
 }
 
 #intro {

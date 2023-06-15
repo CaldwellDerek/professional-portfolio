@@ -1,5 +1,5 @@
 .footer-div {
-    grid-column: 1 / span 3;
+    grid-column: 2;
     grid-row: 3;
     display: flex;
     justify-content: center;
@@ -7,8 +7,8 @@
 }
 
 .github-logo {
-    height: 3.125em;
-    width: 3.125em;
+    height: 2.4em;
+    width: 2.4em;
 }
 
 .linkedin-logo {
