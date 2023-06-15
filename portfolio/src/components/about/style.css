@@ -55,8 +55,8 @@
 }
 
 #intro {
-    max-width: 50em;
-    line-height: 1.4;
+    width: 70%;
+    line-height: 1.5;
     padding-left: 1em;
 }
 
@@ -73,6 +73,10 @@
 @media screen and (max-width: 81.25em) {
     .portrait{
         margin-bottom: 5em;
+    }
+
+    #intro {
+        width: 100%;
     }
 
     #about {

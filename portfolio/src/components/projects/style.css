@@ -15,6 +15,13 @@
     border-radius: 0.25em;
 }
 
+.project h1,
+.project p,
+.project ul,
+.project li,
+.project a {
+    z-index: 2;
+}
 
 .project-1 {
     grid-row: 1;
@@ -88,7 +95,6 @@
     grid-row-end: 1;
     grid-column-start: 3;
     grid-column-end: 8;
-    z-index: 2;
     border-top-right-radius: 0.75em;
     border-bottom-right-radius: 0.75em;
     align-items: flex-end;
@@ -100,7 +106,6 @@
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 5;
-    z-index: 2;
     border-top-left-radius: 0.75em;
     border-bottom-left-radius: 0.75em;
     align-items: flex-start;
@@ -151,8 +156,8 @@
 }
 
 .external-img {
-    max-height: 1.3em;
-    max-width: 1.3em;
+    max-height: 1.35em;
+    max-width: 1.35em;
 }
 
 .external-link img {
