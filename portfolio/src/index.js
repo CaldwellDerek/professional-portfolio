@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navigation from './components/navigation';
 import MobileNavigation from './components/mobile-navigation';
+import Hero from './components/hero';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
@@ -14,6 +15,7 @@ root.render(
     <Navigation/>
     <MobileNavigation/>
     <div className='content'>
+      <Hero/>
       <About/>
       <Projects/>
       <Contact/>

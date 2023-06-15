@@ -102,7 +102,7 @@ code {
 
 .content {
 	display: flex;
-	row-gap: 20em;
+	row-gap: 30em;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;

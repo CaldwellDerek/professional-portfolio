@@ -3,7 +3,7 @@ import profilePicture from "../../assets/profile-picture.jpg"
 import './style.css';
 
 const buttonClick = () => {
-    window.location.href = "/projects";
+    window.location.href = "#projects";
 }
 
 const About = () => {
