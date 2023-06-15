@@ -27,6 +27,7 @@
 
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth !important;
   }
 
 html, body, div, span, applet, object, iframe,
