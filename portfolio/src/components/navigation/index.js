@@ -3,6 +3,17 @@ import menu from '../../assets/menu.png';
 import resume from '../../assets/resume.pdf'
 import './style.css';
 
+var prevScrollpos = window.scrollY;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector(".nav-div").style.top = "0";
+  } else {
+    document.querySelector(".nav-div").style.top = "-6.25em";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 const showDropmenu = () => {
     document.querySelector(".closemenu").style.visibility = "visible";
     document.querySelector(".dropmenu").style.width = "60%";

@@ -7,7 +7,12 @@
     padding: 1.25em;
     font-size: 1.25em;
     color: #FFF;
-    max-height: 6.25rem;
+    background: #04132f;
+    position: fixed;
+    top: 0;
+    transition: top 0.4s;
+    min-width: 100%;
+    z-index: 3;
 }
 
 .nav-links {
