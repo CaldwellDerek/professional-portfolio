@@ -111,11 +111,14 @@ code {
 
 @media screen and (max-width: 81.25em) {
 	#root {
-		display: grid;
 		grid-template-columns: 15% 70% 15%;
-		grid-template-rows: 6.25em 1fr 6.25em;
-		overflow-x: hidden;
 	}
-	
+}
+
+@media screen and (max-width: 30em) {
+	#root {
+		grid-template-columns: 5% 90% 5%;
+	}
 
 }
+

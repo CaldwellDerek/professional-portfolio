@@ -174,3 +174,58 @@
     grid-template-rows: 1fr .1em 1fr .1em 1fr;
     row-gap: 5em;
 }
+
+@media screen and (max-width: 55em) {
+    .project p,
+    .project h1{
+        text-align: center;
+    }
+
+    .project-info,
+    .project-info-2,
+    .project-info-3 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        align-items: center;
+    }
+
+    .project-image-container,
+    .project-image-container-2 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+    .technologies-list,
+    .external-links-list {
+        justify-content: center;
+    }
+
+    .project-1 .technologies-list,
+    .project-1 .external-links-list,
+    .project-3 .technologies-list,
+    .project-3 .external-links-list {
+        justify-content: center;
+    }
+
+    .project p {
+        background-color: transparent;
+        padding: 1.2em;
+        border-radius: 0.25em;
+    }
+
+    .overlay {
+        opacity: 0.1;
+        pointer-events: none;
+    }
+
+    .github-img {
+        max-height: 2.35em;
+        max-width: 2.35em;
+    }
+    
+    .external-img {
+        max-height: 2em;
+        max-width: 2em;
+    }
+
+}
