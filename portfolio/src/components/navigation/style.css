@@ -15,6 +15,10 @@
     z-index: 3;
 }
 
+.nav-div p {
+    font-family: 'Pacifico', cursive, sans-serif;
+}
+
 .nav-links {
     display: flex;
 }
