@@ -146,10 +146,10 @@ code {
 }
 
 @media screen and (max-width: 48em) {
-	/* .left-line, 
+	.left-line, 
 	.right-line {
 		display: none;
-	} */
+	}
 }
 
 @media screen and (max-width: 30em) {
@@ -161,9 +161,6 @@ code {
 		row-gap: 2em;
 	}
 
-	.left-line, 
-	.right-line {
-		display: none;
-	}
+
 }
 
