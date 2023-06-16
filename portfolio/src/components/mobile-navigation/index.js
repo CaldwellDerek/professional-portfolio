@@ -22,8 +22,8 @@ const MobileNavigation = () => {
         </button>
         <div className="mobile-nav-bar">
                 <ul className="mobile-nav">
-                    <li className='mobile-nav-link'><a href="#about">About</a></li>
-                    <li className="mobile-nav-link"><a href="#projects">Projects</a></li>
+                    <li className='mobile-nav-link'><a href="#about-container">About</a></li>
+                    <li className="mobile-nav-link"><a href="#projects-container">Projects</a></li>
                     <li className="mobile-nav-link"><a href="#contact">Contact</a></li>
                     <li className="mobile-nav-link"><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
                 </ul>

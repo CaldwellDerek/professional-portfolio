@@ -175,6 +175,10 @@
     row-gap: 5em;
 }
 
+#projects-container {
+    padding-top: 8em;
+}
+
 @media screen and (max-width: 55em) {
     .project p,
     .project h1{

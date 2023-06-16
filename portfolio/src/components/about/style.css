@@ -53,6 +53,10 @@
     justify-content: center;
 }
 
+#about-container {
+    padding-top: 8em;
+}
+
 #intro {
     width: 70%;
     line-height: 1.5;
