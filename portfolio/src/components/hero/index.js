@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 
 const buttonClick = () => {
-    window.location.href="#about";
+    window.location.href="#about-container";
 }
 
 const Hero = () => {
