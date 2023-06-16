@@ -110,7 +110,30 @@ code {
 	grid-column: 2;
 }
 
+.left-line {
+	position: fixed;
+	right: 95%;
+	bottom: 0%;
+	height: 50%;
+	border-right: 3px solid white;
+	grid-column: 1;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.right-line {
+	position: fixed;
+	left: 95%;
+	top: 0%;
+	height: 50%;
+	border-right: 3px solid white;
+	grid-column: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
 #root {
+	position: relative;
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
 	grid-template-rows: 6.25em 1fr 6.25em;
@@ -122,6 +145,13 @@ code {
 	}
 }
 
+@media screen and (max-width: 48em) {
+	/* .left-line, 
+	.right-line {
+		display: none;
+	} */
+}
+
 @media screen and (max-width: 30em) {
 	#root {
 		grid-template-columns: 5% 90% 5%;
@@ -131,5 +161,9 @@ code {
 		row-gap: 2em;
 	}
 
+	.left-line, 
+	.right-line {
+		display: none;
+	}
 }
 

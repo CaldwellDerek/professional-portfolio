@@ -12,6 +12,8 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className='left-line'></div>
+    <div className='right-line'></div>
     <Navigation/>
     <MobileNavigation/>
     <div className='content'>
