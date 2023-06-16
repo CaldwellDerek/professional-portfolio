@@ -50,8 +50,8 @@ const About = () => {
                 </div>
             </div>
             <div id="intro">
-                <p>My journey in computer science began in 2018 when I enrolled at Western Governor's University in their Software Development program. After graduating in 2022 with a Bachelor's of Science, I sought to expand my skillset and enroll at the University of Washington in a full stack web development bootcamp where I graduated in March of 2023.</p>
-                <p>My time with both Universities has taught me much, and has given me the opportunity to develop full stack applications both independently and collabaratively. As a recent graduate, I'm eager to apply my skillsets and prove myself as a valuable member in a development team.</p>
+                <p>I've always had a passion for computer science and web development, which started when I was a kid building computers with my dad and helping my brother with his own projects. I decided to pursue my love for technology by studying Software Development at Western Governor's University and later getting a Full Stack Web Development certification at the University of Washington. I've learned much through these experiences and gained a strong foundation with technologies such as: HTML, CSS, JavaScript, SQL, React, Node, and Express.</p>
+                <p>I bring a mix of theoretical knowledge and hands-on experience that allows me to create innovative and user-first interfaces, as well as solid and dependable server-side solutions. Aside from the tech-I'm also a collaborative problem solver who loves staying updated on the latest trends. I'm eager to apply my skillset and dedication to continuous learning as a new member of your development team.</p>
         
                 <button className="about-button" type="button" onClick={buttonClick}>View my work!</button>
             </div>
