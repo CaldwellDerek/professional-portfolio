@@ -1,8 +1,8 @@
 ![LicenseBadge](https://img.shields.io/badge/License-MIT-blue)
 # Professional Portfolio
 
-## Credits
-The inspiration behind this project was drawn from [Brittany Chiang's](https://github.com/bchiang7) work on her project [V4](https://github.com/bchiang7/v4), the now updated site can be found [here](https://brittanychiang.com/). When browsing portfolio examples I came across her work and eventually [V4](https://github.com/bchiang7/v4). I loved the project so much I wanted to challenge myself to build as much as I could of the website from scratch. Although I have built this website using my own code, the design is [Brittany's](https://github.com/bchiang7) and I do not claim the site as my own. I'm appreciative of the result so far and have learned much attempting to mimic the site as closely as possible. 
+## Credit and Attribution
+The inspiration behind this project was drawn from [Brittany Chiang's](https://github.com/bchiang7) work on her project [V4](https://github.com/bchiang7/v4), the now updated site can be found [here](https://brittanychiang.com/). When browsing portfolio examples I came across her work and eventually [V4](https://github.com/bchiang7/v4). I loved the project so much I wanted to challenge myself to build as much as I could of the website from scratch. Although I have built this website using my own code, the design is [Brittany's](https://github.com/bchiang7) and I do not claim the site as my own. I'm appreciative of the result so far and have learned much attempting to mimic the site.
 
 I encourage you to check out more of [Brittany Chiang's](https://github.com/bchiang7) amazing work.
 
@@ -13,23 +13,24 @@ Update Favicon
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [License](#license)
-7. [Questions](#questions)
-8. [Media](#media)
+4. [Tests](#tests)
+5. [License](#license)
+6. [Questions](#questions)
+7. [Media](#media)
 
 ## Description
-This application is an installable PWA with the ability to work offline. 
+This application is intended to showcase the projects that I have worked on either collaboratively or indenpendently. As of now, there are three featured projects that can be found under the Featured Projects section.
 
 ## Installation
-To install the application, follow the [LINK](https://uwtexteditor.herokuapp.com/) to the deployed website and select the "Install" button in the upper left hand corner.
+The website can be viewed at the following [link.](www.google.com)
+
+1. Clone the repository.
+2. Run command: `npm install`
+3. Run command: `npm start`
+
 
 ## Usage
-Write code in a simple text editor from anywhere in your web browser.
-
-## Contributing
-This application is open source, anyone may use or contribute to the application.
+This website can be used to quickly learn about my development background and view the work that I have completed so far.
 
 ## Tests
 No test suites have been run at this time.
