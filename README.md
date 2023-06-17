@@ -45,5 +45,14 @@ All of my work can be viewed at my GitHub profile: [CaldwellDerek](https://githu
 
 ## Media
 
-Home Page
-![home-page](./screenshots/home-page.png)
+Hero
+![Hero Section](./src/assets/hero.jpg)
+
+About
+![About Section](./src/assets/about.jpg)
+
+Projects
+![Projects Section](./src/assets/projects.jpg)
+
+Contact
+![Contact Section](./src/assets/contact.jpg)
