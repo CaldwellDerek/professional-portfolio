@@ -13,7 +13,7 @@ const Projects = () => {
             <div id="projects">
                 <div className="project project-1">
                     <div className="project-image-container overlay">
-                        <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
+                        <a href="https://bgp-solo-52397be8b8c1.herokuapp.com/index.html" rel="noreferrer" target="_blank">
                             <img className="project-image" src={bgpimage} alt="placeholder" />
                         </a>
                     </div>
@@ -24,17 +24,17 @@ const Projects = () => {
                             <li className="technology">HTML</li>
                             <li className="technology">CSS</li>
                             <li className="technology">JavaScript</li>
-                            <li className="technology">Tailwind</li>
                             <li className="technology">Board Game Atlas API</li>
+                            <li className="technology">YouTube API</li>
                         </ul>
                         <ul className="external-links-list">
                             <li className="external-link">
-                                <a href="https://github.com/Bram-G/Board-Game-Party" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/CaldwellDerek/bgp" target="_blank" rel="noreferrer">
                                     <img className="github-img" src={github} alt="github logo" />
                                 </a> 
                             </li>
                             <li className="external-link">
-                            <a href="https://bram-g.github.io/Board-Game-Party/" target="_blank" rel="noreferrer">
+                            <a href="https://bgp-solo-52397be8b8c1.herokuapp.com/index.html" target="_blank" rel="noreferrer">
                                     <img className="external-img" src={ext} alt="external link" />
                                 </a>
                             </li>
@@ -44,7 +44,7 @@ const Projects = () => {
                 <div className="divider divider-1"></div>
                 <div className="project project-2">
                     <div className="project-image-container-2 overlay">
-                        <a href="https://bram-g.github.io/Board-Game-Party/" rel="noreferrer" target="_blank">
+                        <a href="https://core-wt-3bc894879624.herokuapp.com/" rel="noreferrer" target="_blank">
                         <img className="project-image" src={cwtimage} alt="placeholder" />
                         </a> 
                     </div>
@@ -52,22 +52,24 @@ const Projects = () => {
                         <h1>COR3: Workout Tracker</h1>
                         <p>COR3 is a full stack application that allows users to record their progress in the gym with a focus on Bench, Squat, and Deadlift. Users can sign up, calculate, and store their current maximums for long term comparison. </p>
                         <ul className="technologies-list">
-                            <li className="technology">HTML</li>
-                            <li className="technology">CSS</li>
                             <li className="technology">JavaScript</li>
+                            <li className="technology">Bootstrap</li>
                             <li className="technology">Node.js</li>
                             <li className="technology">Express.js</li>
                             <li className="technology">Handlebars.js</li>
+                            <li className="technology">bcrypt.js</li>
+                            <li className="technology">MySQL</li>
                             <li className="technology">Sequelize</li>
+                            <li className="technology">Exercise API</li>
                         </ul>
                         <ul className="external-links-list">
                             <li className="external-link">
-                                <a href="https://github.com/Raflores10/workout-tracker" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/CaldwellDerek/core-wt" target="_blank" rel="noreferrer">
                                     <img className="github-img" src={github} alt="github logo" />
                                 </a>
                             </li>
                             <li className="external-link">
-                            <a href="https://bram-g.github.io/Board-Game-Party/" target="_blank" rel="noreferrer">
+                            <a href="https://core-wt-3bc894879624.herokuapp.com/" target="_blank" rel="noreferrer">
                                     <img className="external-img" src={ext} alt="external link" />
                                 </a>
                             </li>
