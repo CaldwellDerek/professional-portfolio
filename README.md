@@ -4,9 +4,6 @@
 ## Credit and Attribution
 The inspiration behind this project was drawn from [Brittany Chiang's](https://github.com/bchiang7) work on her project [V4](https://github.com/bchiang7/v4), the now updated site can be found [here](https://brittanychiang.com/). 
 
-## TODO
-Update Favicon
-
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
