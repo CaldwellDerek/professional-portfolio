@@ -8,8 +8,14 @@ window.onscroll = function() {
   var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector(".nav-div").style.top = "0";
+    document.querySelector(".nav-div").style.boxShadow = "0 0.2rem 0.3rem black"
+
   } else {
     document.querySelector(".nav-div").style.top = "-6.25em";
+  }
+
+  if (currentScrollPos === 0){
+    document.querySelector(".nav-div").style.boxShadow = "0 0 0 black";
   }
   prevScrollpos = currentScrollPos;
 }
