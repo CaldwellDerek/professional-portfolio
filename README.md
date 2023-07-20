@@ -2,9 +2,7 @@
 # Professional Portfolio
 
 ## Credit and Attribution
-The inspiration behind this project was drawn from [Brittany Chiang's](https://github.com/bchiang7) work on her project [V4](https://github.com/bchiang7/v4), the now updated site can be found [here](https://brittanychiang.com/). When browsing portfolio examples I came across her work and eventually [V4](https://github.com/bchiang7/v4). I loved the project so much I wanted to challenge myself to build as much as I could of the website from scratch. Although I have built this website using my own code, the design is [Brittany's](https://github.com/bchiang7) and I do not claim the site as my own. I'm appreciative of the result so far and have learned much attempting to mimic the site.
-
-I encourage you to check out more of [Brittany Chiang's](https://github.com/bchiang7) amazing work.
+The inspiration behind this project was drawn from [Brittany Chiang's](https://github.com/bchiang7) work on her project [V4](https://github.com/bchiang7/v4), the now updated site can be found [here](https://brittanychiang.com/). 
 
 ## TODO
 Update Favicon
@@ -22,7 +20,7 @@ Update Favicon
 This application is intended to showcase the projects that I have worked on either collaboratively or indenpendently. As of now, there are three featured projects that can be found under the Featured Projects section.
 
 ## Installation
-The website can be viewed at the following [link.](www.google.com)
+The website can be viewed at the following [link.](http://www.caldwellderek.com/)
 
 1. Clone the repository.
 2. Run command: `npm install`
